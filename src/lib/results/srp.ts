@@ -17,7 +17,7 @@ class SRPAreaCalculator {
   }
 }
 
-class AreaCalculatorOutputter {
+export class AreaCalculatorOutputter {
   constructor(private calculator: SRPAreaCalculator) {}
 
   public JSON() {

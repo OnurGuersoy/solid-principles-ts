@@ -8,7 +8,7 @@ export class Circle {
   constructor(public radius: number) {}
 }
 
-class AreaCalculator {
+export class AreaCalculator {
   constructor(private shapes: Shape[]) {}
 
   public sum() {
